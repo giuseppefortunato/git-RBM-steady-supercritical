@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -static -rdynamic CMakeFiles/MODES-main.dir/src/main.cpp.o  -o MODES-main  libMODES_lib_static.a 

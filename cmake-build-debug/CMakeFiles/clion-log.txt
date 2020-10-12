@@ -1,0 +1,30 @@
+/home/giuseppe/Programmi/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /media/giuseppe/DATA/WORKSPACE/CODES/RBM-steady
+CMake Warning (dev) at /home/giuseppe/Programmi/clion/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (SMART_MATH)
+  does not match the name of the calling package (smart-math).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/LibFindSmart.cmake:37 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  cmake/modules/Findsmart-math.cmake:2 (find_smart)
+  cmake/external/smart-math.cmake:5 (find_package)
+  cmake/CMakeLists.txt:19 (include)
+  CMakeLists.txt:52 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at /home/giuseppe/Programmi/clion/bin/cmake/linux/share/cmake-3.17/Modules/FindPackageHandleStandardArgs.cmake:272 (message):
+  The package name passed to `find_package_handle_standard_args` (SMART_UQ)
+  does not match the name of the calling package (smart-uq).  This can lead
+  to problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  cmake/modules/LibFindSmart.cmake:37 (FIND_PACKAGE_HANDLE_STANDARD_ARGS)
+  cmake/modules/Findsmart-uq.cmake:2 (find_smart)
+  cmake/external/smart-uq.cmake:5 (find_package)
+  cmake/CMakeLists.txt:30 (include)
+  CMakeLists.txt:52 (include)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /media/giuseppe/DATA/WORKSPACE/CODES/RBM-steady/cmake-build-debug

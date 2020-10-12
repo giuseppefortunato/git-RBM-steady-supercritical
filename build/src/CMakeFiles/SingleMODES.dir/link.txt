@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -static -rdynamic CMakeFiles/SingleMODES.dir/SingleMODES.cpp.o  -o SingleMODES  ../libMODES_lib_static.a 
